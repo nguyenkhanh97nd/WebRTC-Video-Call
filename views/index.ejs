@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ITMAGICAL - Easy video conversation</title>
+    <link rel="icon" type="image/png" href="/images/favicon-icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+<section>
+    <div class="container">
+        <div class="row">
+
+            <div class="about-header">
+                <h2><a href="/" title="ITMAGICAL" class="title-website">ITMAGICAL.COM</a></h2>
+                <div class="form-room">
+                    <div class="content-form">
+                        <h3 class="title-form">Enter a room link, start talking</h3>
+                        <div class="form-input-room">
+                            <label class="label-room" for="room-name">/room/</label>
+                            <input onkeyup="activeEnter(event)" autofocus class="input-room" type="text" name="room-name" placeholder="any room name">
+                            <button class="input-submit btn btn-default hidden-xs" disabled>Enter Room</button>
+                            <button style="margin-top: 10px" class="input-submit btn btn-default hidden-md hidden-lg hidden-sm" disabled>Enter Room</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <p class="help-title text-center">How it works</p>
+                <div class="col-md-12">
+                    <div class="col-md-4 about-image">
+                        <img class="img-responsive" src="/images/rtc1.png" alt="Create a room link">
+                        <p class="help-title text-center">Create a room link</p>
+                        <p class="help-content">It can be whatever you want.</p>
+                    </div>
+                    <div class="col-md-4 about-image">
+                        <img class="img-responsive" src="/images/rtc2.png" alt="Share the link">
+                        <p class="help-title text-center">Share the link</p>
+                        <p class="help-content">By email, chat... However you'd like really.</p>
+                    </div>
+                    
+
+
+                    <div class="col-md-4 about-image">
+                        <img class="img-responsive" src="/images/rtc3.png" alt="...that's it!">
+                        <p class="help-title text-center">...that's it!</p>
+                        <p class="help-content">Guests join instantly in the browser by clicking the link.</p>
+                    </div><!--End about list-->
+                </div>
+            </div><!--End about-content-->
+
+
+        </div><!--End Row-->
+    </div><!--End Container-->
+</section>
+
+</body>
+<script src="/js/index.js"></script>
+</html>
